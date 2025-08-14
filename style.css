@@ -1,55 +1,88 @@
+/* General Body Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    background: #0A192F; /* Dark Blue Background */
+    color: #8892B0; /* Light Slate Text */
 }
 
+/* Header Styles */
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
+    background: #0A192F;
+    color: #FFFFFF;
+    padding: 2rem 0;
     text-align: center;
+    border-bottom: 1px solid #112240;
 }
 
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #E6F1FF;
+}
+
+header .job-title {
+    font-size: 1.2rem;
+    color: #64FFDA; /* Accent Color */
+    margin-top: 0.5rem;
+}
+
+/* Main Content Styles */
 main {
-    padding: 1rem;
+    padding: 2rem;
     margin: auto;
     width: 80%;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 960px;
 }
 
 section {
-    margin-bottom: 1.5rem;
+    background: #112240; /* Card Background */
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-5px);
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    color: #E6F1FF; /* Lighter text for headings */
+    border-bottom: 2px solid #64FFDA; /* Accent Color */
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
+    font-size: 1.8rem;
 }
 
 h3 {
+    color: #E6F1FF;
     margin-bottom: 0.5rem;
 }
 
+/* List Styles */
 ul {
     list-style: none;
     padding: 0;
 }
 
 ul li {
-    background: #e2e2e2;
-    margin-bottom: 0.5rem;
+    background: transparent;
+    margin-bottom: 0.75rem;
     padding: 0.5rem;
-    border-left: 5px solid #333;
+    border-left: 3px solid #64FFDA; /* Accent Color */
 }
 
+strong {
+    color: #E6F1FF;
+}
+
+/* Project Showcase Article Styles */
 article {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #0A192F;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
 }
@@ -58,10 +91,23 @@ article:last-child {
     border-bottom: none;
 }
 
+/* Footer Styles */
 footer {
     text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
-    margin-top: 1rem;
+    padding: 2rem;
+    background: #0A192F;
+    color: #8892B0;
+    margin-top: 2rem;
+    border-top: 1px solid #112240;
+}
+
+/* Link/Interactive Styles */
+a {
+    color: #64FFDA;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #FFFFFF;
 }
