@@ -11,6 +11,15 @@ Hello! I am a QA Engineer with a passion for ensuring software quality through r
 *   **Mobile Automation:** Skilled in testing native and hybrid mobile applications using **Appium** for both Android and iOS platforms.
 *   **CI/CD:** Familiar with integrating automated test suites into CI/CD pipelines to enable continuous testing.
 
+## Work Experience (Since 2018)
+
+*   Broom.id (Current)
+*   Brick
+*   GajiGesa
+*   SPE (Solusi Pembayaran Elektronik)
+*   Fore Coffee
+*   Ralali
+
 ---
 
 ## Project Showcase (Conceptual)
